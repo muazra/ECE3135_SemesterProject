@@ -1,0 +1,7 @@
+MO connect_four_lcd NULL connect_four_lcd.v vlg43/connect__four__lcd.bin 1383691174
+MO lcd NULL lcd.v vlg5F/lcd.bin 1383691174
+MO deb NULL deb.v vlg1F/deb.bin 1385661323
+MO connect_four_vga NULL connect_four_vga.v vlg4E/connect__four__vga.bin 1385661323
+MO connect_four_top NULL connect_four_top.v vlg53/connect__four__top.bin 1385661323
+MO connect_four NULL connect_four.v vlg11/connect__four.bin 1385661323
+MO sync NULL sync.v vlg01/sync.bin 1385661323

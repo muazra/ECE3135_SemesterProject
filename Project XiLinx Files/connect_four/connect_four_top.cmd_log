@@ -1,0 +1,340 @@
+xst -intstyle ise -ifn "C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/connect_four_top.xst" -ofn "C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "E:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "E:/ECE3135/final project/connect_four/connect_four_top.syr" 
+xst -intstyle ise -ifn "E:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "E:/ECE3135/final project/connect_four/connect_four_top.syr" 
+xst -intstyle ise -ifn "E:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "E:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+xst -intstyle ise -ifn "E:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "E:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "E:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "E:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+xst -intstyle ise -ifn "E:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "E:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "E:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "E:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Jose/Documents/ECE3135/connect_four/connect_four_top.xst" -ofn "C:/Users/Jose/Documents/ECE3135/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 connect_four_top.ngc connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+xst -intstyle ise -ifn "D:/ECE3135/final project/connect_four/connect_four_top.xst" -ofn "D:/ECE3135/final project/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/connect_four_top.xst" -ofn "C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/connect_four_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc connect_four_top.ucf -p xc3s250e-cp132-4 "connect_four_top.ngc" connect_four_top.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o connect_four_top_map.ncd connect_four_top.ngd connect_four_top.pcf 
+par -w -intstyle ise -ol high -t 1 connect_four_top_map.ncd connect_four_top.ncd connect_four_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf 
+bitgen -intstyle ise -f connect_four_top.ut connect_four_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/connect_four_top.xst" -ofn "C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/connect_four_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/connect_four_top.xst" -ofn "C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/connect_four_top.syr" 

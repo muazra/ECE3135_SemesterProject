@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Muaz Rahman\Documents\XiLinx\connect_four\connect_four_top.ncd
+OUTFILE=C:\Users\Muaz Rahman\Documents\XiLinx\connect_four\connect_four_top.bit
+FAMILY=Spartan3E
+PART=xc3s250e-4cp132
+WORKINGDIR=C:\Users\Muaz Rahman\Documents\XiLinx\connect_four
+LICENSE=WebPack
+USER_INFO=__0_0_0

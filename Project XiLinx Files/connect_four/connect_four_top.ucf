@@ -1,0 +1,31 @@
+
+
+NET "vga_b" LOC = H13;
+NET "vga_g" LOC = F14;
+NET "vga_h_sync" LOC = J14;
+NET "vga_r" LOC = C14;
+NET "vga_v_sync" LOC = K13;
+NET "Sw0" LOC = P11;
+NET "Sw1" LOC = L3;
+NET "Sw2" LOC = K3;
+NET "Sw3" LOC = B4;
+NET "Sw4" LOC = G3;
+NET "Sw5" LOC = F3;
+NET "Sw6" LOC = E2;
+
+NET "CLK50" LOC = B8;
+NET "An0" LOC = F12;
+NET "An1" LOC = J12;
+NET "An2" LOC = M13;
+NET "An3" LOC = K14;
+NET "Ca" LOC = L14;
+NET "Cb" LOC = H12;
+NET "Cc" LOC = N14;
+NET "Cd" LOC = N11;
+NET "Ce" LOC = P12;
+NET "Cf" LOC = L13;
+NET "Cg" LOC = M12; 
+
+NET "P1" LOC = G12;
+NET "P2" LOC = C11;
+NET "Reset_button" LOC = A7;

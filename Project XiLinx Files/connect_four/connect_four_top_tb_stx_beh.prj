@@ -1,0 +1,7 @@
+verilog isim_temp "sync.v"
+verilog isim_temp "deb.v"
+verilog isim_temp "connect_four_vga.v"
+verilog isim_temp "connect_four.v"
+verilog isim_temp "connect_four_top.v"
+verilog isim_temp "connect_four_top_tb.v"
+verilog isim_temp "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

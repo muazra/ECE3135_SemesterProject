@@ -1,0 +1,7 @@
+verilog work "sync.v"
+verilog work "deb.v"
+verilog work "connect_four_vga.v"
+verilog work "connect_four.v"
+verilog work "connect_four_top.v"
+verilog work "connect_four_top_tb.v"
+verilog work "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

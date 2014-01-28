@@ -1,0 +1,5 @@
+verilog work "sync.v"
+verilog work "deb.v"
+verilog work "connect_four_vga.v"
+verilog work "connect_four.v"
+verilog work "connect_four_top.v"

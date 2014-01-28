@@ -1,0 +1,117 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Thu Nov 07 22:08:02 2013
+# Process ID: 11944
+# Log file: D:/ECE3135/final project/connect_four/planAhead_run_1/planAhead.log
+# Journal file: D:/ECE3135/final project/connect_four/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {D:/ECE3135/final project/connect_four/pa.fromHdl.tcl}
+# create_project -name connect_four -dir "D:/ECE3135/final project/connect_four/planAhead_run_1" -part xc3s250ecp132-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "connect_four_top.ucf" [current_fileset -constrset]
+Adding file 'D:/ECE3135/final project/connect_four/connect_four_top.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {sync.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {deb.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {connect_four_vga.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {connect_four.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {connect_four_top.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top connect_four_top $srcset
+# add_files [list {connect_four_top.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s250ecp132-4
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "D:/ECE3135/final project/connect_four/sync.v" into library work
+Analyzing Verilog file "D:/ECE3135/final project/connect_four/deb.v" into library work
+Analyzing Verilog file "D:/ECE3135/final project/connect_four/connect_four_vga.v" into library work
+Analyzing Verilog file "D:/ECE3135/final project/connect_four/connect_four.v" into library work
+Analyzing Verilog file "D:/ECE3135/final project/connect_four/connect_four_top.v" into library work
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.6/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.6/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.6/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s250e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s250e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s250e/cp132/Package.xml
+Loading io standards from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s250e/cp132/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.6/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [D:/ECE3135/final project/connect_four/connect_four_top.ucf]
+Finished Parsing UCF File [D:/ECE3135/final project/connect_four/connect_four_top.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 05912c56
+open_rtl_design: Time (s): elapsed = 00:00:15 . Memory (MB): peak = 551.434 ; gain = 132.305
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin N13 [get_ports Dp]
+endgroup
+set_property package_pin "" [get_ports [list  LED7]]
+set_property package_pin "" [get_ports [list  Dp]]
+startgroup
+set_property package_pin M11 [get_ports LED0]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports LED0]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports LED1]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports LED2]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports LED3]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports LED4]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports LED5]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports LED6]
+endgroup
+startgroup
+set_property package_pin G1 [get_ports LED7]
+endgroup
+save_constraints
+startgroup
+set_property package_pin G12 [get_ports P1]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports P2]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports Reset_button]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See D:/ECE3135/final project/connect_four\planAhead_pid11944.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Nov 07 22:30:52 2013...
+INFO: [Common 17-83] Releasing license: PlanAhead

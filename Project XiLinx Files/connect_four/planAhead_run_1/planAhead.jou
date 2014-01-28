@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Thu Nov 07 22:08:02 2013
+# Process ID: 11944
+# Log file: D:/ECE3135/final project/connect_four/planAhead_run_1/planAhead.log
+# Journal file: D:/ECE3135/final project/connect_four/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/ECE3135/final project/connect_four/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin N13 [get_ports Dp]
+endgroup
+set_property package_pin "" [get_ports [list  LED7]]
+set_property package_pin "" [get_ports [list  Dp]]
+startgroup
+set_property package_pin M11 [get_ports LED0]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports LED0]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports LED1]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports LED2]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports LED3]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports LED4]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports LED5]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports LED6]
+endgroup
+startgroup
+set_property package_pin G1 [get_ports LED7]
+endgroup
+save_constraints
+startgroup
+set_property package_pin G12 [get_ports P1]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports P2]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports Reset_button]
+endgroup
+save_constraints

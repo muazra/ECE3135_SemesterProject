@@ -1,0 +1,117 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml connect_four_top.twx connect_four_top.ncd -o
+connect_four_top.twr connect_four_top.pcf -ucf connect_four_top.ucf
+
+Design file:              connect_four_top.ncd
+Physical constraint file: connect_four_top.pcf
+Device,package,speed:     xc3s250e,cp132,-4 (PRODUCTION 1.27 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CLK50
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK50          |    2.232|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Sw0            |Ca             |   15.548|
+Sw0            |Cb             |   12.494|
+Sw0            |Cc             |   15.867|
+Sw0            |Cd             |   14.029|
+Sw0            |Ce             |   15.079|
+Sw0            |Cf             |   14.557|
+Sw0            |Cg             |   12.832|
+Sw1            |Ca             |   11.585|
+Sw1            |Cb             |    9.872|
+Sw1            |Cc             |   12.807|
+Sw1            |Cd             |   11.719|
+Sw1            |Ce             |    9.940|
+Sw1            |Cf             |   12.722|
+Sw1            |Cg             |   12.904|
+Sw2            |Ca             |   14.766|
+Sw2            |Cb             |   13.132|
+Sw2            |Cc             |   14.690|
+Sw2            |Cd             |   14.667|
+Sw2            |Ce             |   13.258|
+Sw2            |Cf             |   15.195|
+Sw2            |Cg             |   13.230|
+Sw3            |Ca             |   12.233|
+Sw3            |Cb             |   10.644|
+Sw3            |Cc             |   12.722|
+Sw3            |Cd             |   12.139|
+Sw3            |Ce             |   12.444|
+Sw3            |Cf             |   12.647|
+Sw3            |Cg             |   12.856|
+Sw4            |Ca             |   14.268|
+Sw4            |Cb             |   12.634|
+Sw4            |Cc             |   14.192|
+Sw4            |Cd             |   14.169|
+Sw4            |Ce             |   12.750|
+Sw4            |Cf             |   14.697|
+Sw4            |Cg             |   12.759|
+Sw5            |Ca             |   11.952|
+Sw5            |Cb             |   11.622|
+Sw5            |Cc             |   11.081|
+Sw5            |Cd             |   13.089|
+Sw5            |Ce             |   11.524|
+Sw5            |Cf             |   13.685|
+Sw5            |Cg             |   12.313|
+Sw6            |Ca             |   12.959|
+Sw6            |Cb             |   11.325|
+Sw6            |Cc             |   12.944|
+Sw6            |Cd             |   12.860|
+Sw6            |Ce             |   12.156|
+Sw6            |Cf             |   13.388|
+Sw6            |Cg             |   11.439|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Nov 27 18:13:59 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 173 MB
+
+
+

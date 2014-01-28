@@ -1,0 +1,516 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: connect_four_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "connect_four_top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "connect_four_top"
+Output Format                      : NGC
+Target Device                      : xc3s250e-4-cp132
+
+---- Source Options
+Top Module Name                    : connect_four_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "sync.v" in library work
+Compiling verilog file "deb.v" in library work
+Module <sync> compiled
+Compiling verilog file "connect_four_vga.v" in library work
+Module <deb> compiled
+Compiling verilog file "connect_four.v" in library work
+Module <connect_four_vga> compiled
+Compiling verilog file "connect_four_top.v" in library work
+Module <connect_four> compiled
+Module <connect_four_top> compiled
+No errors in compilation
+Analysis of file <"connect_four_top.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <connect_four_top> in library <work> with parameters.
+	COL1 = "1000000"
+	COL2 = "0100000"
+	COL3 = "0010000"
+	COL4 = "0001000"
+	COL5 = "0000100"
+	COL6 = "0000010"
+	COL7 = "0000001"
+
+Analyzing hierarchy for module <deb> in library <work> with parameters.
+	CCEN_st = "100100"
+	CCR = "100001"
+	INI = "000000"
+	MCEN_cont = "101101"
+	MCEN_st = "101100"
+	N_dc = "00000000000000000000000000011100"
+	SCEN_st = "111100"
+	W84 = "000001"
+	WFCR = "100010"
+	WS = "100000"
+
+Analyzing hierarchy for module <connect_four> in library <work> with parameters.
+	COL1 = "1000000"
+	COL2 = "0100000"
+	COL3 = "0010000"
+	COL4 = "0001000"
+	COL5 = "0000100"
+	COL6 = "0000010"
+	COL7 = "0000001"
+	END = "10000000"
+	INI = "00000001"
+	P1 = "00000010"
+	P1C = "00000100"
+	P1C2 = "00001000"
+	P2 = "00010000"
+	P2C = "00100000"
+	P2C2 = "01000000"
+	UNK = "XXXXXXXX"
+
+Analyzing hierarchy for module <connect_four_vga> in library <work>.
+
+Analyzing hierarchy for module <sync> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <connect_four_top>.
+	COL1 = 7'b1000000
+	COL2 = 7'b0100000
+	COL3 = 7'b0010000
+	COL4 = 7'b0001000
+	COL5 = 7'b0000100
+	COL6 = 7'b0000010
+	COL7 = 7'b0000001
+Module <connect_four_top> is correct for synthesis.
+ 
+Analyzing module <deb> in library <work>.
+	CCEN_st = 6'b100100
+	CCR = 6'b100001
+	INI = 6'b000000
+	MCEN_cont = 6'b101101
+	MCEN_st = 6'b101100
+	N_dc = 32'sb00000000000000000000000000011100
+	SCEN_st = 6'b111100
+	W84 = 6'b000001
+	WFCR = 6'b100010
+	WS = 6'b100000
+Module <deb> is correct for synthesis.
+ 
+    Set property "fsm_encoding = user" for signal <state>.
+Analyzing module <connect_four> in library <work>.
+	COL1 = 7'b1000000
+	COL2 = 7'b0100000
+	COL3 = 7'b0010000
+	COL4 = 7'b0001000
+	COL5 = 7'b0000100
+	COL6 = 7'b0000010
+	COL7 = 7'b0000001
+	END = 8'b10000000
+	INI = 8'b00000001
+	P1 = 8'b00000010
+	P1C = 8'b00000100
+	P1C2 = 8'b00001000
+	P2 = 8'b00010000
+	P2C = 8'b00100000
+	P2C2 = 8'b01000000
+	UNK = 8'bXXXXXXXX
+Module <connect_four> is correct for synthesis.
+ 
+Analyzing module <connect_four_vga> in library <work>.
+Module <connect_four_vga> is correct for synthesis.
+ 
+Analyzing module <sync> in library <work>.
+Module <sync> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <i> in unit <connect_four> has a constant value of 11 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <j> in unit <connect_four> has a constant value of 100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <k> in unit <connect_four> has a constant value of 100 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <deb>.
+    Related source file is "deb.v".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 20                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 9                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Reset              | RESET                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000000                                         |
+    | Encoding           | user                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 28-bit register for signal <debounce_count>.
+    Found 28-bit adder for signal <debounce_count$addsub0000>.
+    Found 4-bit register for signal <MCEN_count>.
+    Found 4-bit adder for signal <MCEN_count$addsub0000>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  32 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <deb> synthesized.
+
+
+Synthesizing Unit <connect_four>.
+    Related source file is "connect_four.v".
+WARNING:Xst:1780 - Signal <input_data> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <flag_local2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <flag_local> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <flag> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_1> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 34                                             |
+    | Inputs             | 14                                             |
+    | Outputs            | 8                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00000001                                       |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 42-bit register for signal <empty>.
+    Found 42-bit register for signal <game_data>.
+    Found 2-bit register for signal <win_con>.
+    Found 1-bit register for signal <error>.
+    Found 6-bit register for signal <addr>.
+    Found 6-bit adder for signal <addr$addsub0000>.
+    Found 4-bit register for signal <cnt>.
+    Found 4-bit adder for signal <cnt$addsub0000>.
+    Found 4-bit comparator greatequal for signal <state$cmp_ge0000> created at line 129.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  97 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <connect_four> synthesized.
+
+
+Synthesizing Unit <sync>.
+    Related source file is "sync.v".
+    Found 10-bit up counter for signal <CounterX>.
+    Found 10-bit up counter for signal <CounterY>.
+    Found 1-bit register for signal <inDisplayArea>.
+    Found 10-bit comparator less for signal <inDisplayArea$cmp_lt0000> created at line 48.
+    Found 10-bit comparator less for signal <inDisplayArea$cmp_lt0001> created at line 48.
+    Found 1-bit register for signal <vga_HS>.
+    Found 10-bit comparator greater for signal <vga_HS$cmp_gt0000> created at line 39.
+    Found 10-bit comparator less for signal <vga_HS$cmp_lt0000> created at line 39.
+    Found 1-bit register for signal <vga_VS>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+Unit <sync> synthesized.
+
+
+Synthesizing Unit <connect_four_vga>.
+    Related source file is "connect_four_vga.v".
+WARNING:Xst:1780 - Signal <positionY> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <positionX> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <vga_b>.
+    Found 1-bit register for signal <vga_g>.
+    Found 1-bit register for signal <vga_r>.
+    Found 10-bit comparator greatequal for signal <lines$cmp_ge0000> created at line 37.
+    Found 10-bit comparator greatequal for signal <lines$cmp_ge0001> created at line 37.
+    Found 10-bit comparator greatequal for signal <lines$cmp_ge0002> created at line 37.
+    Found 10-bit comparator greatequal for signal <lines$cmp_ge0003> created at line 37.
+    Found 10-bit comparator greatequal for signal <lines$cmp_ge0004> created at line 37.
+    Found 10-bit comparator greatequal for signal <lines$cmp_ge0005> created at line 37.
+    Found 10-bit comparator greatequal for signal <lines$cmp_ge0006> created at line 37.
+    Found 10-bit comparator greatequal for signal <lines$cmp_ge0007> created at line 37.
+    Found 10-bit comparator greatequal for signal <lines$cmp_ge0008> created at line 37.
+    Found 10-bit comparator greatequal for signal <lines$cmp_ge0009> created at line 37.
+    Found 10-bit comparator greatequal for signal <lines$cmp_ge0010> created at line 37.
+    Found 10-bit comparator greatequal for signal <lines$cmp_ge0011> created at line 37.
+    Found 10-bit comparator greatequal for signal <lines$cmp_ge0012> created at line 37.
+    Found 10-bit comparator greatequal for signal <lines$cmp_ge0013> created at line 37.
+    Found 10-bit comparator lessequal for signal <lines$cmp_le0000> created at line 37.
+    Found 10-bit comparator lessequal for signal <lines$cmp_le0001> created at line 37.
+    Found 10-bit comparator lessequal for signal <lines$cmp_le0002> created at line 37.
+    Found 10-bit comparator lessequal for signal <lines$cmp_le0003> created at line 37.
+    Found 10-bit comparator lessequal for signal <lines$cmp_le0004> created at line 37.
+    Found 10-bit comparator lessequal for signal <lines$cmp_le0005> created at line 37.
+    Found 10-bit comparator lessequal for signal <lines$cmp_le0006> created at line 37.
+    Found 10-bit comparator lessequal for signal <lines$cmp_le0007> created at line 37.
+    Found 10-bit comparator lessequal for signal <lines$cmp_le0008> created at line 37.
+    Found 10-bit comparator lessequal for signal <lines$cmp_le0009> created at line 37.
+    Found 10-bit comparator lessequal for signal <lines$cmp_le0010> created at line 37.
+    Found 10-bit comparator lessequal for signal <lines$cmp_le0011> created at line 37.
+    Found 10-bit comparator lessequal for signal <lines$cmp_le0012> created at line 37.
+    Found 10-bit comparator lessequal for signal <lines$cmp_le0013> created at line 37.
+    Found 10-bit comparator greatequal for signal <p1$cmp_ge0000> created at line 55.
+    Found 10-bit comparator greatequal for signal <p1$cmp_ge0001> created at line 55.
+    Found 10-bit comparator greatequal for signal <p1$cmp_ge0002> created at line 55.
+    Found 10-bit comparator greatequal for signal <p1$cmp_ge0003> created at line 55.
+    Found 10-bit comparator greatequal for signal <p1$cmp_ge0004> created at line 55.
+    Found 10-bit comparator greatequal for signal <p1$cmp_ge0005> created at line 55.
+    Found 10-bit comparator greatequal for signal <p1$cmp_ge0006> created at line 55.
+    Found 10-bit comparator greatequal for signal <p1$cmp_ge0007> created at line 55.
+    Found 10-bit comparator greatequal for signal <p1$cmp_ge0008> created at line 55.
+    Found 10-bit comparator greatequal for signal <p1$cmp_ge0009> created at line 55.
+    Found 10-bit comparator greatequal for signal <p1$cmp_ge0010> created at line 55.
+    Found 10-bit comparator greatequal for signal <p1$cmp_ge0011> created at line 55.
+    Found 10-bit comparator greatequal for signal <p1$cmp_ge0012> created at line 55.
+    Found 10-bit comparator lessequal for signal <p1$cmp_le0000> created at line 55.
+    Found 10-bit comparator lessequal for signal <p1$cmp_le0001> created at line 55.
+    Found 10-bit comparator lessequal for signal <p1$cmp_le0002> created at line 55.
+    Found 10-bit comparator lessequal for signal <p1$cmp_le0003> created at line 55.
+    Found 10-bit comparator lessequal for signal <p1$cmp_le0004> created at line 55.
+    Found 10-bit comparator lessequal for signal <p1$cmp_le0005> created at line 55.
+    Found 10-bit comparator lessequal for signal <p1$cmp_le0006> created at line 55.
+    Found 10-bit comparator lessequal for signal <p1$cmp_le0007> created at line 55.
+    Found 10-bit comparator lessequal for signal <p1$cmp_le0008> created at line 55.
+    Found 10-bit comparator lessequal for signal <p1$cmp_le0009> created at line 55.
+    Found 10-bit comparator lessequal for signal <p1$cmp_le0010> created at line 55.
+    Found 10-bit comparator lessequal for signal <p1$cmp_le0011> created at line 55.
+    Found 10-bit comparator lessequal for signal <p1$cmp_le0012> created at line 55.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred  54 Comparator(s).
+Unit <connect_four_vga> synthesized.
+
+
+Synthesizing Unit <connect_four_top>.
+    Related source file is "connect_four_top.v".
+WARNING:Xst:646 - Signal <error> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Q_P2C2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Q_P2C> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Q_P2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 16x8-bit ROM for signal <SSD_CATHODES>.
+    Found 1-bit register for signal <CLK_int25>.
+    Found 27-bit up counter for signal <DIV_CLK>.
+    Found 1-bit register for signal <player>.
+    Found 4-bit 4-to-1 multiplexer for signal <SSD>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+Unit <connect_four_top> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 6
+ 28-bit adder                                          : 2
+ 4-bit adder                                           : 3
+ 6-bit adder                                           : 1
+# Counters                                             : 3
+ 10-bit up counter                                     : 2
+ 27-bit up counter                                     : 1
+# Registers                                            : 100
+ 1-bit register                                        : 93
+ 2-bit register                                        : 1
+ 28-bit register                                       : 2
+ 4-bit register                                        : 3
+ 6-bit register                                        : 1
+# Comparators                                          : 59
+ 10-bit comparator greatequal                          : 27
+ 10-bit comparator greater                             : 1
+ 10-bit comparator less                                : 3
+ 10-bit comparator lessequal                           : 27
+ 4-bit comparator greatequal                           : 1
+# Multiplexers                                         : 2
+ 1-bit 42-to-1 multiplexer                             : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <sm/state/FSM> on signal <state[1:3]> with sequential encoding.
+----------------------
+ State    | Encoding
+----------------------
+ 00000001 | 000
+ 00000010 | 001
+ 00000100 | 010
+ 00001000 | 011
+ 10000000 | 100
+ 00010000 | 101
+ 00100000 | 110
+ 01000000 | 111
+----------------------
+Optimizing FSM <deb_l/state/FSM> on signal <state[1:6]> with user encoding.
+Optimizing FSM <deb_r/state/FSM> on signal <state[1:6]> with user encoding.
+--------------------
+ State  | Encoding
+--------------------
+ 000000 | 000000
+ 000001 | 000001
+ 111100 | 111100
+ 100000 | 100000
+ 100001 | 100001
+ 101100 | 101100
+ 100100 | 100100
+ 101101 | 101101
+ 100010 | 100010
+--------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 6
+ 28-bit adder                                          : 2
+ 4-bit adder                                           : 3
+ 6-bit adder                                           : 1
+# Counters                                             : 3
+ 10-bit up counter                                     : 2
+ 27-bit up counter                                     : 1
+# Registers                                            : 169
+ Flip-Flops                                            : 169
+# Comparators                                          : 59
+ 10-bit comparator greatequal                          : 27
+ 10-bit comparator greater                             : 1
+ 10-bit comparator less                                : 3
+ 10-bit comparator lessequal                           : 27
+ 4-bit comparator greatequal                           : 1
+# Multiplexers                                         : 2
+ 1-bit 42-to-1 multiplexer                             : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <DIV_CLK_19> of sequential type is unconnected in block <connect_four_top>.
+WARNING:Xst:2677 - Node <DIV_CLK_20> of sequential type is unconnected in block <connect_four_top>.
+WARNING:Xst:2677 - Node <DIV_CLK_21> of sequential type is unconnected in block <connect_four_top>.
+WARNING:Xst:2677 - Node <DIV_CLK_22> of sequential type is unconnected in block <connect_four_top>.
+WARNING:Xst:2677 - Node <DIV_CLK_23> of sequential type is unconnected in block <connect_four_top>.
+WARNING:Xst:2677 - Node <DIV_CLK_24> of sequential type is unconnected in block <connect_four_top>.
+WARNING:Xst:2677 - Node <DIV_CLK_25> of sequential type is unconnected in block <connect_four_top>.
+WARNING:Xst:2677 - Node <DIV_CLK_26> of sequential type is unconnected in block <connect_four_top>.
+
+Optimizing unit <connect_four_top> ...
+
+Optimizing unit <deb> ...
+
+Optimizing unit <connect_four> ...
+
+Optimizing unit <sync> ...
+
+Optimizing unit <connect_four_vga> ...
+WARNING:Xst:2677 - Node <sm/error> of sequential type is unconnected in block <connect_four_top>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block connect_four_top, actual ratio is 22.

@@ -1,0 +1,28 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/connect_four_top_tb_isim_beh.exe -prj C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/connect_four_top_tb_beh.prj work.connect_four_top_tb work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/sync.v" into library work
+Analyzing Verilog file "C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/deb.v" into library work
+Analyzing Verilog file "C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/connect_four_vga.v" into library work
+Analyzing Verilog file "C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/connect_four.v" into library work
+Analyzing Verilog file "C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/connect_four_top.v" into library work
+Analyzing Verilog file "C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/connect_four_top_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module BUFG
+Compiling module deb(N_dc=28)
+Compiling module connect_four
+Compiling module sync
+Compiling module connect_four_vga
+Compiling module connect_four_top
+Compiling module connect_four_top_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 8 Verilog Units
+Built simulation executable C:/Users/Muaz Rahman/Documents/XiLinx/connect_four/connect_four_top_tb_isim_beh.exe
+Fuse Memory Usage: 45452 KB
+Fuse CPU Usage: 826 ms
